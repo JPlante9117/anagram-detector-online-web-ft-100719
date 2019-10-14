@@ -7,12 +7,12 @@ class Anagram
   end
   
   def check_for_anagrams(word_array)
-    matches = []
+    anagrams = []
     sorted_letters = @word.split("").sort
     word_array.each do |words|
-      matches << words if words.split("").sort == sorted_letters
+      anagrams << words if words.split("").sort == sorted_letters
     end
-    return matches
+    return anagrams
   end
   
 end
