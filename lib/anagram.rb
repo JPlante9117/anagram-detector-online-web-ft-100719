@@ -1,15 +1,19 @@
-# Your code goes here!
-
 class Anagram
   
-  attr_accessor :word
+  attr_accessor :word, :word_array
   
   def initialize(word)
     @word = word
+    @word_array = word_array
   end
   
   def check_for_anagrams(word_array)
-    @word.match()
+    matches = []
+    sorted_letters = @word.split("").sort
+    word_array.each do |words|
+      matches << words if words.split("").sort == sorted_letters
+    end
+    matches
   end
   
 end
