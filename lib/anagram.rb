@@ -4,7 +4,6 @@ class Anagram
   
   def initialize(word)
     @word = word
-    @word_array = word_array
   end
   
   def check_for_anagrams(word_array)
