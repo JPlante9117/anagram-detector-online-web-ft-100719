@@ -8,4 +8,8 @@ class Anagram
     @word = word
   end
   
+  def check_for_anagrams(words)
+    
+  end
+  
 end
