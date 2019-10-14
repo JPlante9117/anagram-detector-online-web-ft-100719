@@ -8,7 +8,7 @@ class Anagram
     @word = word
   end
   
-  def check_for_anagrams(words)
+  def check_for_anagrams(word_array)
     
   end
   
