@@ -9,7 +9,7 @@ class Anagram
   end
   
   def check_for_anagrams(word_array)
-    
+    @word.match()
   end
   
 end
